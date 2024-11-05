@@ -1,0 +1,4 @@
+RewriteEngine On
+
+# Redirect users trying to access the "admin" directory to admin_login.php
+RewriteRule ^admin/?$ /admin_login.php [L,R=301]
